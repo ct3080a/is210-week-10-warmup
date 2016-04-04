@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 """Dictionaries"""
 
+
 import data
 
-NIGEL = data.BANDS
 
-BAND_NAMES = data.BANDS
+NIGEL = data.BANDS['Nigel Tufnel']
+
+BAND_NAMES = data.BANDS.values

@@ -2,9 +2,13 @@
 # -*- coding: utf-8 -*-
 """Dictinary functions"""
 
+
 import data
+
 
 CORRECTED = data.BANDS.copy()
 
-del CORRECTED['David Lee Roth']
+del CORRECTED['Van Halen']
+
+
 dict.fromkeys(['Van Halen'], 'Sammy Hager')

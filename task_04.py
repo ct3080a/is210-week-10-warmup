@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """Task 04"""
 
+
 import data
 
-data.BANDS['Fleetwood Mac']zip[data.BANDS['Buckingham Nicks'], data.BANDS['Fleetwood Mac']]
+
+data.BANDS['Fleetwood Mac'].update(data.BANDS['Buckingham Nicks'])
